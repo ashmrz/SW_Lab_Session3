@@ -1,4 +1,4 @@
-public class HouseBlender extends Beverage{
+public class HouseBlend extends Beverage{
 
     public HouseBlender() {
         this.setDescription("House Blender");
