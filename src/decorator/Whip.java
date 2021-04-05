@@ -1,7 +1,11 @@
-public class Whip extends CondimentDecorator{
+package decorator;
+
+import decorator.Beverage;
+import decorator.CondimentDecorator;
+
+public class Whip extends CondimentDecorator {
 
     public Whip(Beverage beverage) {
-        this.setDescription(" with whip");
         super(beverage);
     }
 
@@ -12,6 +16,6 @@ public class Whip extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + this.description();
+        return super.getDescription() + " with whip";
     }
 }

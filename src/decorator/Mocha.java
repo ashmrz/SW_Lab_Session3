@@ -1,7 +1,11 @@
-public class Mocha extends CondimentDecorator{
+package decorator;
+
+import decorator.Beverage;
+import decorator.CondimentDecorator;
+
+public class Mocha extends CondimentDecorator {
 
     public Mocha(Beverage beverage) {
-        this.setDescription(" with mocha");
         super(beverage);
     }
 
@@ -12,6 +16,6 @@ public class Mocha extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + this.description();
+        return super.getDescription() + " with mocha";
     }
 }

@@ -1,4 +1,8 @@
-public class DarkRoast extends Beverage{
+package decorator;
+
+import decorator.Beverage;
+
+public class DarkRoast extends Beverage {
 
     public DarkRoast() {
         this.setDescription("Delicious Dark Roast");

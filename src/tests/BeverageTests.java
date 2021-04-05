@@ -1,3 +1,5 @@
+package tests;
+
 import decorator.*;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,11 @@
-public class Soy extends CondimentDecorator{
+package decorator;
+
+import decorator.Beverage;
+import decorator.CondimentDecorator;
+
+public class Soy extends CondimentDecorator {
 
     public Soy(Beverage beverage) {
-        this.setDescription(" with soy");
         super(beverage);
     }
 
@@ -12,6 +16,6 @@ public class Soy extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + this.description();
+        return super.getDescription() + " with soy";
     }
 }

@@ -1,6 +1,10 @@
-public class HouseBlend extends Beverage{
+package decorator;
 
-    public HouseBlender() {
+import decorator.Beverage;
+
+public class HouseBlend extends Beverage {
+
+    public HouseBlend() {
         this.setDescription("Delicious HouseBlend");
     }
 

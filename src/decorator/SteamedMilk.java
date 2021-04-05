@@ -1,7 +1,11 @@
-public class SteamedMilk extends CondimentDecorator{
+package decorator;
+
+import decorator.Beverage;
+import decorator.CondimentDecorator;
+
+public class SteamedMilk extends CondimentDecorator {
 
     public SteamedMilk(Beverage beverage) {
-        this.setDescription(" with milk");
         super(beverage);
     }
 
@@ -12,6 +16,6 @@ public class SteamedMilk extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + this.description();
+        return super.getDescription() + " with milk";
     }
 }
