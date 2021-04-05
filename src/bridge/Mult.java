@@ -1,5 +1,5 @@
 package bridge;
 
 public abstract class Mult {
-    private double calculate(double a, double b);
+    public abstract double calculate(double a, double b);
 }

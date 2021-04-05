@@ -9,7 +9,6 @@ class BridgeTests {
 
     @Test
     void testPowerWithMult11() {
-        // Pure HouseBlend
         PowerWithMult powerWithMult = new PowerWithMult(new Pow1(), new Mult1());
         assertEquals(powerWithMult.calculate(2, 5), 32);
         assertEquals(powerWithMult.calculate(4, 0.5), 2);
@@ -18,7 +17,6 @@ class BridgeTests {
 
     @Test
     void testPowerWithMult12() {
-        // Pure HouseBlend
         PowerWithMult powerWithMult = new PowerWithMult(new Pow1(), new Mult2());
         assertEquals(powerWithMult.calculate(2, 5), 32);
         assertEquals(powerWithMult.calculate(4, 0.5), 2);
@@ -27,7 +25,6 @@ class BridgeTests {
 
     @Test
     void testPowerWithMult21() {
-        // Pure HouseBlend
         PowerWithMult powerWithMult = new PowerWithMult(new Pow2(), new Mult1());
         assertEquals(powerWithMult.calculate(2, 5), 32);
         assertEquals(powerWithMult.calculate(4, 0.5), 2);
@@ -36,7 +33,6 @@ class BridgeTests {
 
     @Test
     void testPowerWithMult22() {
-        // Pure HouseBlend
         PowerWithMult powerWithMult = new PowerWithMult(new Pow2(), new Mult2());
         assertEquals(powerWithMult.calculate(2, 5), 32);
         assertEquals(powerWithMult.calculate(4, 0.5), 2);

@@ -1,8 +1,8 @@
 package bridge;
 
-public class Pow2 {
+public class Pow2 extends Pow {
     @Override
-    private double calculate(double a, double b, Mult mult) {
-
+    public double calculate(double a, double b, Mult mult) {
+        return mult.calculate(mult.calculate(a, a), Math.pow(a, b - 2));
     }
 }
