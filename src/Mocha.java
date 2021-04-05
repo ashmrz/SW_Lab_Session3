@@ -9,4 +9,9 @@ public class Mocha extends CondimentDecorator{
     public double cost() {
         return super.cost() + 0.2;
     }
+
+    @Override
+    public String getDescription() {
+        return super.getDescription() + this.description();
+    }
 }

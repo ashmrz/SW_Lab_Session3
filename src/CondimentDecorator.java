@@ -13,4 +13,9 @@ public abstract class CondimentDecorator implements Beverage {
     public Beverage getBaverage() {
         return baverage;
     }
+
+    @Override
+    public String getDescription() {
+        return getBaverage().getDescription();
+    }
 }
