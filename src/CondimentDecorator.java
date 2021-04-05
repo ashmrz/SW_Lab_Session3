@@ -3,7 +3,7 @@ public abstract class CondimentDecorator implements Beverage {
 
     @Override
     public double cost {
-        return getBaverage().cost()
+        return getBaverage().cost();
     }
 
     public CondimentDecorator(Beverage beverage) {
