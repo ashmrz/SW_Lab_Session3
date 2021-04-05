@@ -1,7 +1,7 @@
 public class Decaf extends Beverage{
 
     public Decaf() {
-        this.setDescription("Deacf");
+        this.setDescription("Delicious Decaf");
     }
 
     @Override

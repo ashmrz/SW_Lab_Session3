@@ -1,7 +1,7 @@
 public class HouseBlend extends Beverage{
 
     public HouseBlender() {
-        this.setDescription("House Blender");
+        this.setDescription("Delicious HouseBlend");
     }
 
     @Override

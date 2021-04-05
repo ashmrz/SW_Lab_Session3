@@ -1,7 +1,7 @@
 public class DarkRoast extends Beverage{
 
     public DarkRoast() {
-        this.setDescription("Dark Roast");
+        this.setDescription("Delicious Dark Roast");
     }
 
     @Override
